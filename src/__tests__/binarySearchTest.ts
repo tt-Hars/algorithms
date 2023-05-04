@@ -1,4 +1,4 @@
-import binarySearch from '../code/linearSearch'
+import binarySearch from '../code/binarySearch'
 
 test("binary search array", function () {
 
