@@ -6,9 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "clear": "node ./scripts/clear.js",
     "prettier": "prettier --write ./src",
-    "generate": "node ./scripts/generate.js",
     "run": "tsc && jest"
   },
   "author": "H T",

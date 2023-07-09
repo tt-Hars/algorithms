@@ -1,3 +1,9 @@
+/**
+ * trying to find when the two crystal balls
+ * will break when dropped from a floor.
+ * hint: if you dont want to move linear, sq. root it!
+ */
+
 export default function twoCrystalBalls(breaks: boolean[]): number {
   const jmpAmount = Math.floor(Math.sqrt(breaks.length))
   let i = jmpAmount
