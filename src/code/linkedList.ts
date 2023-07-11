@@ -45,7 +45,7 @@ export class SinglyLinkedList<T> implements iLinkedList<T> {
     this.head.prev = node
     this.head = node
   }
-  
+
   insertAt(item: T, idx: number): void {
     if (idx > this.length) throw new Error('mind the length')
     else if (idx === this.length) {

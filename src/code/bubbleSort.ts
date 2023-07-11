@@ -1,6 +1,6 @@
 /**
- * Let's keep swapping and 
- * move the largest element 
+ * Let's keep swapping and
+ * move the largest element
  * to the last position
  */
 

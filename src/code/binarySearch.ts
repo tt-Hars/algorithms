@@ -17,7 +17,6 @@ export default function binarySearch(
     if (val === needle) return true
     else if (val > needle) hi = mid
     else lo = mid + 1
-
   } while (lo < hi)
   return false
 }
