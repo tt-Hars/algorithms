@@ -1,7 +1,7 @@
 interface iNode<T> {
   value: T
-  next: Node<T> | undefined
-  prev: Node<T> | undefined
+  next: iNode<T> | undefined
+  prev: iNode<T> | undefined
 }
 
 class Node<T> implements iNode<T> {
